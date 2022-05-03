@@ -1,0 +1,235 @@
+/* A global reset. It makes sure that all elements have the same box model. */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    scroll-behavior: smooth;
+    
+}
+
+/* NAVBAR */
+.navbar{
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.navbar h1{
+    margin-left: 5px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+
+ul{
+  list-style: none;  
+}
+
+.nav-icons{
+    margin-left: 5px;
+}
+
+.nav-icons i{
+    margin: 0 10px;
+}
+
+.nav-links span{
+    background-color:rgb(124, 54, 124);
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+
+/* HEADER */
+
+header{
+    width: 100vw;
+    height: 800px;
+    background-color: rgb(235, 228, 228);
+}
+
+.section-header{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section{
+    float: left;
+    width: 55%;
+}
+
+.image-section{
+    margin-top: 10px;
+    float: right;
+    width: 40%;
+}
+
+.image-section img{
+    margin-right: 40px;
+    width: 100%;
+    height: auto;
+}
+
+.content-section .title{
+    text-transform: uppercase;
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+.content-section .content h3{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+.content-section .content .button{
+    margin-top: 20px;  
+}
+
+.content-section .content a{
+    background-color: rgb(124, 54, 124);
+    padding: 12px 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+/* CATEGORIE */
+
+section{
+    width: 80%;
+    height: auto;
+    margin: 80px auto;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    /* background: blue; */
+}
+
+.row .col img{
+    width: 80%;
+}
+
+.title2{
+    margin: 0 140px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/* FILTER */
+.switcher {
+    margin: 0 110px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    width: fit-content;
+    padding: 14px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.switcher li {
+    border-radius: 4px;
+    padding: 10px 20px;
+    /* background-color: #ccc; */
+    cursor: pointer;
+    transition: 0.2s linear;
+    font-size: 20px;
+    user-select: none;
+    margin: 5px;
+}
+  
+.switcher li.active {
+    background-color: rgb(124, 54, 124);
+}
+
+/* PRODUCT */
+
+/* .main{
+    margin: 0 140px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  } */
+  /* Toutes les cartes */
+  /* .cards{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .cards .card{
+    margin-right: 20px;
+    cursor:pointer;
+  }
+  .cards .card img{
+    width: 300px;
+  }
+  .cards .card .card-header{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+  }
+  .cards .card .card-body p{
+    margin-top: -10px;
+  } */
+
+  .product{
+    width: 80%;
+    height: auto;
+    margin: 10px 140px 20px ;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.row-product{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    /* background: blue; */
+}
+
+.row-product .col-product img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+
+p{
+    padding-top: 3px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
